@@ -64,9 +64,9 @@ Watch this space.
 
 ## Contact
 
-- **Project lead:** TBD
+- **Project lead:** Dragon (12hrformat@proton.me)
 - **Discord / Matrix / Forum:** TBD
-- **Website:** TBD
+- **Website:** Not yet developed
 
 ---
 
