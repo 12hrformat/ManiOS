@@ -1,6 +1,6 @@
 # ---MANI LINUX---
 
-<img width="1236" height="722" alt="Screenshot 2026-09-20 144614" src="https://github.com/user-attachments/assets/2494a2ea-fa12-4c3d-a208-b079389fe1b1" />
+
 
 **Status:** planning and building the basics, release 1 on October 4th
 
@@ -9,9 +9,9 @@
 **Platform:** x86_64 (initial target)
 
 ---
-### Contributors
+### Developers
 - 12hrformat (dragon)
-- add your name here
+- krishnarajyagru27-creator
 ---
 
 ## About
