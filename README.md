@@ -70,7 +70,7 @@ Watch this space.
 
 - **Project lead:** Dragon (12hrformat@proton.me)
 - **Discord:** https://discord.gg/aPUg2V7wWd
-- **Website:** Not yet developed
+- **Website:** https://manilinux.site.je/?i=1
 
 ---
 
