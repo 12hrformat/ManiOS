@@ -1,0 +1,37 @@
+# Mani Linux package repository index (charge)
+#
+# One package per line. Columns:
+#   name  version  file  sha256  tier  deps
+#
+#   version : real version once built
+#   file    : the .tar.zst name served from this repo
+#   sha256  : real hash (mkpkg.sh fills it in)
+#   tier    : easy / moderate / hardware / reporting / gui
+#   deps    : comma-separated, or '-' for none
+#
+# Only TERMINAL tools that work out of the box. GUI / wireless-hardware
+# tools come later.
+#
+# Packages are not built yet — use mkpkg.sh to pack one and refresh the
+# entry:  ./mkpkg.sh nmap 7.95 ~/build/nmap easy libpcre,openssl
+
+# --- terminal tools, tier: easy ---
+nmap         TBD nmap-TBD.tar.zst         pending easy -
+netcat       TBD netcat-TBD.tar.zst       pending easy -
+tcpdump      TBD tcpdump-TBD.tar.zst      pending easy -
+dig          TBD dig-TBD.tar.zst          pending easy -
+curl         TBD curl-TBD.tar.zst         pending easy -
+wget         TBD wget-TBD.tar.zst         pending easy -
+ffuf         TBD ffuf-TBD.tar.zst         pending easy -
+sqlmap       TBD sqlmap-TBD.tar.zst       pending easy -
+nikto        TBD nikto-TBD.tar.zst        pending easy -
+nuclei       TBD nuclei-TBD.tar.zst       pending easy -
+whatweb      TBD whatweb-TBD.tar.zst      pending easy -
+hydra        TBD hydra-TBD.tar.zst        pending easy -
+john         TBD john-TBD.tar.zst         pending easy -
+hashcat      TBD hashcat-TBD.tar.zst      pending easy -
+yara         TBD yara-TBD.tar.zst         pending easy -
+python       TBD python-TBD.tar.zst       pending easy -
+
+# --- terminal tools, tier: reporting ---
+dragonrepo   TBD dragonrepo-TBD.tar.zst   pending reporting -
