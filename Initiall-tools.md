@@ -4,6 +4,8 @@ Mani Linux — Security Tool Implementation Difficulty
 
 Tools that should generally work immediately after installation.
 
+my own tool dragonrepo too meow (https://github.com/12hrformat/dragonrepo) 
+oh yeah and get python working too
 - Nmap
 - Netcat
 - Tcpdump
