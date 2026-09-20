@@ -26,7 +26,7 @@ updates and upgrades everything.
 
 ## Repositories
 
-A repo is just an HTTP folder (GitHub Pages, InfinityFree...):
+A repo is just an HTTP folder:
 
 ```
 https://<host>/repo/
@@ -35,12 +35,21 @@ https://<host>/repo/
 ```
 
 ```
-sudo charge repos add https://<user>.github.io/ManiOS/repo
+sudo charge repos add https://<host>/repo
 sudo charge update        # download the index
 sudo charge nmap          # resolve name -> download -> verify -> install
 ```
 
 `<pkg>` can also be a local file: `sudo charge ./mytest-1.0.tar.zst`.
+
+### Hosting options for a private repo
+
+- **GitHub Pages is paywalled for private repos** (free only on public ones).
+  Works once Mani Linux goes public.
+- **InfinityFree / any static HTTP host** works regardless of repo privacy:
+  upload `index.txt` + the `.tar.zst` files via FTP, then
+  `sudo charge repos add https://<your>.infinityfreeapp.com`.
+- GitHub Releases (free even on private repos) suits big binaries later.
 
 ## Package format (v1)
 
