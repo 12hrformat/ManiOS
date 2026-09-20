@@ -3,9 +3,15 @@
 > *Named for Máni, the Norse god who steers the moon across the night sky — steady, watchful, always in motion.*
 
 **Status:** planning and building the basics, release 1 on October 4th
+
 **License:** To be decided (prolly apache Or gnu i was thinking individual licensss for things like shell and gui and all that
+
 **Platform:** x86_64 (initial target)
 
+---
+### Contributors
+- 12hrformat (dragon)
+- add your name here
 ---
 
 ## About
@@ -73,7 +79,3 @@ Watch this space.
 ## License
 
 To be determined before the first public release.
-
----
-
-*Mani OS — steady in the dark.*
