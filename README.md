@@ -2,8 +2,6 @@
 
 **An independent Linux distribution for cybersecurity, security research, CTFs, and everyday use.**
 
-> Named after *Máni*, the Norse personification of the Moon.
-
 ![Status](https://img.shields.io/badge/status-in%20development-orange)
 ![First Release](https://img.shields.io/badge/first%20release-October%204%2C%202026-blue)
 ![Architecture](https://img.shields.io/badge/architecture-x86__64-lightgrey)
