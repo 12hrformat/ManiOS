@@ -1,6 +1,6 @@
 # Mani OS
 
-> *Named for Máni, the Norse god who steers the moon across the night sky — steady, watchful, always in motion.*
+<img width="1024" height="1024" alt="Gemini_Generated_Image_ayd9jtayd9jtayd9" src="https://github.com/user-attachments/assets/cd990cc8-c39d-482b-981a-a814300e5a7b" />
 
 **Status:** planning and building the basics, release 1 on October 4th
 
@@ -16,7 +16,7 @@
 
 ## About
 
-Mani OS is an independent Linux distribution built for **cybersecurity, security research, CTFs, privacy, and everyday Linux use**. It's designed to be a single system you can trust for serious security work and comfortable enough to run as a daily driver — not a novelty distro, not a re-skin, and not built around shock-value branding.
+Mani OS is an independent Linux distribution built for **cybersecurity, security research, CTFs, privacy, and daily driving**. It's designed to be a single system you can trust for serious security work and comfortable enough to run as a daily driver — not a "wannabe hacking" distro, not a re-skin, and not built around shock-value branding.
 
 The goal is a distro that feels as legitimate and deliberate as the tools it ships with.
 
@@ -26,12 +26,10 @@ The goal is a distro that feels as legitimate and deliberate as the tools it shi
 
 - **Cybersecurity & Security Research** — a curated, maintained toolset for offensive and defensive work, without the bloat of "everything and the kitchen sink" distros.
 - **CTFs** — fast to spin up, pre-configured for common CTF workflows, without fighting the OS to get to the challenge.
-- **Privacy** — sane defaults, minimal telemetry, and transparency about what the system does and doesn't send anywhere.
-- **General Linux Use** — stable and usable enough to be a primary OS, not just a boot-and-forget toolkit.
 
 ---
 
-## Philosophy
+## Vision
 
 - **No edgy branding.** Mani OS is built to look and feel like a legitimate, professional distribution — not a "hacker aesthetic" costume.
 - **Curated over comprehensive.** Tools are chosen deliberately, not dumped in wholesale.
