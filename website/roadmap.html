@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roadmap — Mani Linux</title>
+  <meta name="description" content="The development roadmap for Mani Linux." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Mani Linux</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roadmap.html" class="active">Roadmap</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contributors.html">Contributors</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section>
+      <div class="section-header">
+        <h2>Roadmap</h2>
+        <p>From a bootable terminal to a public release. Foundation first, features second.</p>
+      </div>
+
+      <!-- Phase 0 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 0</span>
+          <h3>Project Foundation</h3>
+        </div>
+        <div class="phase-items">
+          <div class="phase-item completed"><span class="checkbox">X</span> Create GitHub repository</div>
+          <div class="phase-item"><span class="checkbox"></span> Make repository private during development</div>
+          <div class="phase-item"><span class="checkbox"></span> Establish final repository structure</div>
+          <div class="phase-item"><span class="checkbox"></span> Add LICENSE</div>
+          <div class="phase-item completed"><span class="checkbox">X</span> Add CONTRIBUTING.md</div>
+          <div class="phase-item"><span class="checkbox"></span> Add issue templates</div>
+          <div class="phase-item"><span class="checkbox"></span> Add pull request template</div>
+          <div class="phase-item"><span class="checkbox"></span> Define contribution rules</div>
+          <div class="phase-item"><span class="checkbox"></span> Define branch strategy</div>
+        </div>
+      </div>
+
+      <!-- Phase 1 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 1</span>
+          <h3>Mani Linux Base System</h3>
+          <span class="badge badge-planning">Target: Oct 4</span>
+        </div>
+        <p style="color:var(--text-dim);margin-bottom:16px;font-size:26px;">Goal: Boot into a functional terminal-based Linux system.</p>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Produce first bootable ISO</div>
+          <div class="phase-item"><span class="checkbox"></span> Boot successfully in VM</div>
+          <div class="phase-item"><span class="checkbox"></span> Verify x86_64 architecture</div>
+          <div class="phase-item"><span class="checkbox"></span> Kernel loads correctly</div>
+          <div class="phase-item"><span class="checkbox"></span> Root filesystem mounts correctly</div>
+          <div class="phase-item"><span class="checkbox"></span> Init system starts correctly</div>
+          <div class="phase-item"><span class="checkbox"></span> Reach TTY/login prompt</div>
+          <div class="phase-item"><span class="checkbox"></span> Filesystem layout (/, /bin, /etc, /home, /usr, etc.)</div>
+          <div class="phase-item"><span class="checkbox"></span> User management & sudo</div>
+          <div class="phase-item"><span class="checkbox"></span> Networking & internet access</div>
+          <div class="phase-item"><span class="checkbox"></span> Package management foundation</div>
+          <div class="phase-item"><span class="checkbox"></span> VM testing & reproducible ISO builds</div>
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 2</span>
+          <h3>Core Terminal Environment</h3>
+        </div>
+        <p style="color:var(--text-dim);margin-bottom:16px;font-size:26px;">Make the basic terminal experience usable.</p>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Choose & configure shell</div>
+          <div class="phase-item"><span class="checkbox"></span> Core commands: ls, cd, cat, grep, find, etc.</div>
+          <div class="phase-item"><span class="checkbox"></span> System commands: ps, kill, uname, df, free</div>
+          <div class="phase-item"><span class="checkbox"></span> Networking commands: ip, ping, ss, DNS</div>
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 3</span>
+          <h3>Networking</h3>
+        </div>
+        <p style="color:var(--text-dim);margin-bottom:16px;font-size:26px;">Mani Linux can connect to a network and access the internet.</p>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Interface detection & configuration</div>
+          <div class="phase-item"><span class="checkbox"></span> DHCP & static IP</div>
+          <div class="phase-item"><span class="checkbox"></span> DNS & IPv4/IPv6</div>
+          <div class="phase-item"><span class="checkbox"></span> Internet connectivity & failure handling</div>
+        </div>
+      </div>
+
+      <!-- Phase 4 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 4</span>
+          <h3>Package System</h3>
+        </div>
+        <p style="color:var(--text-dim);margin-bottom:16px;font-size:26px;">The <code>mani</code> package manager — update, search, install, remove, upgrade.</p>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Package format & metadata</div>
+          <div class="phase-item"><span class="checkbox"></span> Repository & index</div>
+          <div class="phase-item"><span class="checkbox"></span> Install / remove / upgrade / search</div>
+          <div class="phase-item"><span class="checkbox"></span> Dependency resolution & verification</div>
+        </div>
+      </div>
+
+      <!-- Phase 5 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASE 5</span>
+          <h3>Mani Security Toolkit</h3>
+          <span class="badge badge-wip">See <a href="tools.html" style="color:var(--red);">Tools Page</a></span>
+        </div>
+        <p style="color:var(--text-dim);margin-bottom:16px;font-size:26px;">Turn the functional Linux base into a security-focused OS.</p>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Recon: Nmap, Amass, Subfinder, Masscan</div>
+          <div class="phase-item"><span class="checkbox"></span> Web: FFUF, Gobuster, SQLmap, OWASP ZAP</div>
+          <div class="phase-item"><span class="checkbox"></span> Network: Wireshark, tcpdump, Netcat</div>
+          <div class="phase-item"><span class="checkbox"></span> Password: Hashcat, John the Ripper</div>
+          <div class="phase-item"><span class="checkbox"></span> AD: Impacket, BloodHound</div>
+          <div class="phase-item"><span class="checkbox"></span> Wireless: Aircrack-ng, Kismet</div>
+          <div class="phase-item"><span class="checkbox"></span> RE: Ghidra, Radare2</div>
+          <div class="phase-item"><span class="checkbox"></span> Forensics & reporting tools</div>
+        </div>
+      </div>
+
+      <!-- Phases 6-12 -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">PHASES 6–12</span>
+          <h3>Future Phases</h3>
+        </div>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 6:</strong> Mani CLI — unified command-line experience</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 7:</strong> System configuration (hostname, locale, timezone, etc.)</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 8:</strong> GUI — desktop environment, branding, terminal theme</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 9:</strong> Security workflow — engagements, evidence, reporting</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 10:</strong> Testing & quality — VM + hardware testing</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 11:</strong> Documentation — guides, troubleshooting, FAQ</div>
+          <div class="phase-item"><span class="checkbox"></span> <strong>Phase 12:</strong> Public release — ISO, checksums, open repo</div>
+        </div>
+      </div>
+
+      <!-- Current Sprint -->
+      <div class="phase">
+        <div class="phase-header">
+          <span class="phase-number">SPRINT</span>
+          <h3>Current Sprint — Target: October 4</h3>
+        </div>
+        <div class="phase-items">
+          <div class="phase-item"><span class="checkbox"></span> Functional TTY</div>
+          <div class="phase-item"><span class="checkbox"></span> Basic Linux filesystem</div>
+          <div class="phase-item"><span class="checkbox"></span> Core commands</div>
+          <div class="phase-item"><span class="checkbox"></span> User/login system</div>
+          <div class="phase-item"><span class="checkbox"></span> Networking & internet access</div>
+          <div class="phase-item"><span class="checkbox"></span> Package-management foundation</div>
+          <div class="phase-item"><span class="checkbox"></span> VM testing</div>
+          <div class="phase-item"><span class="checkbox"></span> All source/configuration files committed</div>
+        </div>
+      </div>
+
+      <!-- Golden Rule -->
+      <div class="card">
+        <h3>Golden Rule</h3>
+        <p style="margin-top:8px;color:var(--text-dim);font-size:26px;">Do not build the GUI before the foundation works.</p>
+        <pre><code>BOOT → TTY → FILESYSTEM → CORE COMMANDS → NETWORK → INTERNET → PACKAGE MANAGER → SECURITY TOOLS → GUI → MANI FEATURES → PUBLIC RELEASE</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contributors.html">Contributors</a></li>
+        <li><a href="https://github.com/12hrformat/ManiOS">GitHub</a></li>
+        <li><a href="https://discord.gg/aPUg2V7wWd">Discord</a></li>
+      </ul>
+      <p class="footer-copy">Mani Linux</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

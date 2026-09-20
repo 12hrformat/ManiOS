@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tools — Mani Linux</title>
+  <meta name="description" content="The curated security toolset for Mani Linux." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Mani Linux</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="tools.html" class="active">Tools</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contributors.html">Contributors</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section>
+      <div class="section-header">
+        <h2>Toolset</h2>
+        <p>Curated, not comprehensive. Tools are chosen deliberately and tiered by implementation difficulty.</p>
+      </div>
+
+      <div class="card-grid">
+        <!-- Tier 1 -->
+        <div class="tier-section tier-easy">
+          <h4>Easy</h4>
+          <p>Tools that should generally work immediately after installation.</p>
+          <div class="tool-list">
+            <span class="tool-tag">Nmap</span>
+            <span class="tool-tag">Netcat</span>
+            <span class="tool-tag">Tcpdump</span>
+            <span class="tool-tag">Dig / DNS</span>
+            <span class="tool-tag">Curl</span>
+            <span class="tool-tag">Wget</span>
+            <span class="tool-tag">FFUF</span>
+            <span class="tool-tag">SQLmap</span>
+            <span class="tool-tag">Nikto</span>
+            <span class="tool-tag">Nuclei</span>
+            <span class="tool-tag">WhatWeb</span>
+            <span class="tool-tag">Hydra</span>
+            <span class="tool-tag">John the Ripper</span>
+            <span class="tool-tag">Hashcat</span>
+            <span class="tool-tag">YARA</span>
+            <span class="tool-tag">Python</span>
+            <span class="tool-tag">DragonRepo</span>
+          </div>
+        </div>
+
+        <!-- Tier 2 -->
+        <div class="tier-section tier-moderate">
+          <h4>Moderate</h4>
+          <p>Straightforward to install but may need additional dependencies or configuration.</p>
+          <div class="tool-list">
+            <span class="tool-tag">Masscan</span>
+            <span class="tool-tag">Amass</span>
+            <span class="tool-tag">Subfinder</span>
+            <span class="tool-tag">HTTPX</span>
+            <span class="tool-tag">Naabu</span>
+            <span class="tool-tag">Gobuster</span>
+            <span class="tool-tag">Feroxbuster</span>
+            <span class="tool-tag">Impacket</span>
+            <span class="tool-tag">NetExec</span>
+            <span class="tool-tag">SearchSploit</span>
+            <span class="tool-tag">Metasploit</span>
+            <span class="tool-tag">Radare2</span>
+            <span class="tool-tag">Rizin</span>
+            <span class="tool-tag">Binwalk</span>
+            <span class="tool-tag">Volatility</span>
+          </div>
+        </div>
+
+        <!-- Tier 3 -->
+        <div class="tier-section tier-hardware">
+          <h4>Hardware / Environment</h4>
+          <p>Require specific hardware, drivers, interfaces, permissions, or external environments.</p>
+          <div class="tool-list">
+            <span class="tool-tag">Aircrack-ng</span>
+            <span class="tool-tag">Kismet</span>
+            <span class="tool-tag">Wifite</span>
+            <span class="tool-tag">Bettercap</span>
+            <span class="tool-tag">Mitmproxy</span>
+            <span class="tool-tag">Evil-WinRM</span>
+            <span class="tool-tag">Kerbrute</span>
+            <span class="tool-tag">BloodHound</span>
+          </div>
+        </div>
+
+        <!-- Tier 4 -->
+        <div class="tier-section tier-gui">
+          <h4>GUI / Later</h4>
+          <p>Integrate after the Mani GUI environment is available.</p>
+          <div class="tool-list">
+            <span class="tool-tag">Ghidra</span>
+            <span class="tool-tag">Burp Suite</span>
+            <span class="tool-tag">Wireshark</span>
+            <span class="tool-tag">Cutter</span>
+            <span class="tool-tag">BloodHound GUI</span>
+            <span class="tool-tag">Autopsy</span>
+            <span class="tool-tag">Tshark (CLI alt)</span>
+            <span class="tool-tag">Rizin (CLI alt)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testing -->
+      <div class="card" style="margin-top:24px;">
+        <h3>Testing Standard</h3>
+        <p style="margin-top:8px;color:var(--text-dim);font-size:26px;">Every preinstalled tool must pass three stages:</p>
+        <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:0;">
+          <span class="tool-tag">1. INSTALLED</span>
+          <span class="tool-tag">2. LAUNCHES</span>
+          <span class="tool-tag">3. FUNCTIONALLY TESTED</span>
+        </div>
+        <p style="color:var(--text-dim);margin-top:16px;font-size:26px;">A tool should not be considered fully supported by Mani merely because its package installs successfully.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contributors.html">Contributors</a></li>
+        <li><a href="https://github.com/12hrformat/ManiOS">GitHub</a></li>
+        <li><a href="https://discord.gg/aPUg2V7wWd">Discord</a></li>
+      </ul>
+      <p class="footer-copy">Mani Linux</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
