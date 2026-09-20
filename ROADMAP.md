@@ -23,20 +23,20 @@ Repository
 - [x] Create GitHub repository
 - [x] Make repository private during development
 - [ ] Establish final repository structure
-- [ ] Add "README.md"
+- [x] Add "README.md"
 - [x] Add "CONTRIBUTING.md"
 - [ ] Add "LICENSE"
-- [ ] Add issue templates
-- [ ] Add pull request template
-- [ ] Define contribution rules
+- [x] Add issue templates
+- [x] Add pull request template
+- [x] Define contribution rules
 - [ ] Define branch strategy
 
 Development Environment
 
 - [ ] Decide base Linux distribution
 - [ ] Decide build system
-- [ ] Set up reproducible build environment
-- [ ] Set up VM testing environment
+- [x] Set up reproducible build environment
+- [x] Set up VM testing environment
 - [ ] Document development setup
 - [ ] Create first automated build
 
