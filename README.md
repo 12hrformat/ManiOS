@@ -1,6 +1,6 @@
-#                                                        ---MANI LINUX---
+# ---MANI LINUX---
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_ayd9jtayd9jtayd9" src="https://github.com/user-attachments/assets/cd990cc8-c39d-482b-981a-a814300e5a7b" />
+<img width="1236" height="722" alt="Screenshot 2026-09-20 144614" src="https://github.com/user-attachments/assets/2494a2ea-fa12-4c3d-a208-b079389fe1b1" />
 
 **Status:** planning and building the basics, release 1 on October 4th
 
