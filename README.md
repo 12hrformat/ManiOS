@@ -2,8 +2,8 @@
 
 > *Named for Máni, the Norse god who steers the moon across the night sky — steady, watchful, always in motion.*
 
-**Status:** 🚧 Pre-development · Planning phase · Active development begins **October 2026**
-**License:** TBD
+**Status:** planning and building the basics, release 1 on October 4th
+**License:** To be decided (prolly apache Or gnu i was thinking individual licensss for things like shell and gui and all that
 **Platform:** x86_64 (initial target)
 
 ---
