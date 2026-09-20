@@ -1,0 +1,6 @@
+#!/bin/sh
+DISK="/home/lucifer/ManOS-VM/disk/manios-standalone.qcow2"
+KERNEL="/usr/lib/modules/$(uname -r)/vmlinuz"
+INITRAMFS="/tmp/manios-iso/boot/initramfs.img"
+ISO="/home/lucifer/ManiOS/manios.iso"
+qemu-system-x86_64 -m 512M -smp 2 -cpu qemu64 -machine pc -kernel "$KERNEL" -initrd "$INITRAMFS" -append "root=/dev/ram0 rw console=ttyS0 console=tty0" -drive "file=$DISK,format=qcow2,if=virtio" -cdrom "$ISO" -boot d -accel tcg -nographic -name "ManOS" 2>&1
