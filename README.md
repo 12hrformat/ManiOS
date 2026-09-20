@@ -1,79 +1,157 @@
-# ---MANI LINUX---
+Mani OS
 
+An independent Linux distribution for cybersecurity, security research, CTFs, and everyday use.
 
+«Named after Máni, the Norse personification of the Moon.»
 
-**Status:** planning and building the basics, release 1 on October 4th
-
-**License:** To be decided (prolly apache Or gnu i was thinking individual licensss for things like shell and gui and all that
-
-**Platform:** x86_64 (initial target)
-
----
-### Developers
-- 12hrformat (dragon)
-- krishnarajyagru27-creator
----
-
-## About
-
-Mani OS is an independent Linux distribution built for **cybersecurity, security research, CTFs, privacy, and daily driving**. It's designed to be a single system you can trust for serious security work and comfortable enough to run as a daily driver — not a "wannabe hacking" distro, not a re-skin, and not built around shock-value branding.
-
-The goal is a distro that feels as legitimate and deliberate as the tools it ships with.
+Status: In development
+First release: October 4, 2026
+Architecture: x86_64
+License: To be decided
 
 ---
 
-## Core Focus Areas
+About
 
-- **Cybersecurity & Security Research** — a curated, maintained toolset for offensive and defensive work, without the bloat of "everything and the kitchen sink" distros.
-- **CTFs** — fast to spin up, pre-configured for common CTF workflows, without fighting the OS to get to the challenge.
+Mani OS is a Linux distribution being built around cybersecurity, security research, CTFs, and everyday computing.
 
----
+The project started with a simple idea: build a security-focused operating system that doesn't feel like a collection of tools thrown onto a desktop.
 
-## Vision
+Mani OS aims to provide a clean base system, carefully selected security tools, sensible defaults, and an environment that can still be used as a normal desktop operating system.
 
-- **No edgy branding.** Mani OS is built to look and feel like a legitimate, professional distribution — not a "hacker aesthetic" costume.
-- **Curated over comprehensive.** Tools are chosen deliberately, not dumped in wholesale.
-- **Transparent by default.** What the system does, collects, and connects to should never be a mystery.
-- **Usable daily.** Security tooling shouldn't come at the cost of a distro you can actually live in.
+This is an independent project. The final base distribution, package management system, and other core components are still being decided.
 
 ---
 
-## Roadmap
+What we're building
 
-- [ ] Finalize base distribution (from-scratch vs. Arch/Debian-derived)
-- [ ] Package manager decision
-- [ ] Core security/CTF toolkit selection
-- [ ] Base system hardening & privacy defaults
-- [ ] Installer
-- [ ] First internal ISO build
-- [ ] Public alpha testing
-- [ ] Documentation & website
+Security
 
-**Timeline:** Planning is ongoing now. Active development kicks off **October 2026**.
+A focused collection of tools for:
+
+- Network security
+- Web security
+- Digital forensics
+- Reverse engineering
+- Malware analysis
+- OSINT
+- Defensive security
+- General security research
+
+Tools will be selected individually rather than installing every available security package by default.
+
+CTFs
+
+Mani OS is intended to work well for CTF environments, with commonly used tooling available without requiring a large amount of manual setup.
+
+Daily use
+
+Security tools should not make the rest of the operating system unpleasant to use.
+
+Mani OS will also focus on:
+
+- A usable desktop environment
+- Reasonable resource usage
+- Reliable updates
+- Clear documentation
+- Normal desktop applications
+- A system that can be used outside of security work
 
 ---
 
-## Contributing
+Design principles
 
-Mani OS isn't open for contributions yet — the project is still in the planning phase. Once development begins in October, this section will cover:
+Curated, not bloated.
+We would rather maintain a smaller set of useful tools properly than ship hundreds of packages that most users will never touch.
 
-- How to build the ISO locally
-- Coding/packaging standards
-- How to propose new tools for inclusion
-- Issue and PR guidelines
+Practical.
+The operating system should solve problems rather than create new ones.
 
-Watch this space.
+Independent.
+Mani OS is being developed as its own project instead of being a rebranded copy of another security distribution.
 
----
-
-## Contact
-
-- **Project lead:** Dragon (12hrformat@proton.me)
-- **Discord:** https://discord.gg/aPUg2V7wWd
-- **Website:** https://manilinux.site.je/?i=1
+Maintainable.
+Anything we add to the system needs to be something we can realistically maintain.
 
 ---
 
-## License
+Current status
 
-To be determined before the first public release.
+Mani OS is currently in the planning and early development stage.
+
+The first release is targeted for October 4, 2026. Before that release, the project needs to settle several fundamental technical decisions.
+
+Roadmap
+
+- [ ] Decide on the base system
+- [ ] Decide between a from-scratch and existing Linux base
+- [ ] Design the package management approach
+- [ ] Define the initial system architecture
+- [ ] Select the initial security toolkit
+- [ ] Establish system defaults
+- [ ] Build the installer
+- [ ] Produce the first internal ISO
+- [ ] Test the ISO on physical hardware and virtual machines
+- [ ] Prepare documentation
+- [ ] Build the project website
+- [ ] Begin public alpha testing
+- [ ] Prepare the first public release
+
+The roadmap will change as development progresses.
+
+---
+
+Developers
+
+12hrformat — Dragon
+Project lead and developer
+
+krishnarajyagru27-creator
+Developer
+
+---
+
+Contributing
+
+Mani OS is not accepting general contributions yet.
+
+The project is still establishing its architecture and development workflow. Once the project reaches the appropriate stage, contribution guidelines will cover:
+
+- Building Mani OS locally
+- Development standards
+- Package submission
+- Tool inclusion criteria
+- Issue reporting
+- Pull requests
+- Testing requirements
+
+---
+
+Project Links
+
+- Website: https://manilinux.site.je/?i=1
+- Discord: https://discord.gg/aPUg2V7wWd
+- Project lead: 12hrformat@proton.me
+
+---
+
+License
+
+The project license has not been finalized yet.
+
+Mani OS may use different licenses for independently maintained components where appropriate. The licensing of the distribution itself, system components, shell, desktop software, and bundled third-party software will be documented separately before the first public release.
+
+Third-party software will remain under its respective upstream license.
+
+---
+
+Disclaimer
+
+Mani OS is intended for authorized security research, education, CTFs, system administration, and defensive security work.
+
+Users are responsible for ensuring that their use of the included software complies with applicable laws and with the authorization requirements of the systems they test.
+
+---
+
+Mani OS
+Independent. Focused. Built for security.
